@@ -1,0 +1,17 @@
+<!-- hero details -->
+<div *ngIf="hero">
+  <code>HeroDetailComponent</code>
+  <div class="card text-bg-light mt-2">
+    <div class="card-header">
+      <h6>Hero {{ hero.id }}</h6>
+    </div>
+    <div class="card-body">
+      <p>
+        Hero name: <b>{{ hero.name | uppercase }}</b>
+      </p>
+      <p>
+        Hero rating: <b>{{ hero.rating }}</b>
+      </p>
+    </div>
+  </div>
+</div>
